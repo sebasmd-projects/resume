@@ -14,6 +14,11 @@ export default function RootLayout({ children, title, description, keywords, rob
         <>
             <Head>
                 <title>{`Sebastian Morales${title ? ` | ${pageTitle}` : ''}`}</title>
+                <meta property="og:title" content={`Sebástian Morales${title ? ` | ${pageTitle}` : ''}`} />
+
+                <link rel="canonical" href='https://www.sebasmoralesd.com' />
+                <meta property="og:url" content="https://www.sebasmoralesd.com" />
+                <meta property="og:site_name" content={`Sebastian Morales${title ? ` | ${pageTitle}` : ''}`} />
 
                 <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png" />
                 <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
@@ -32,6 +37,8 @@ export default function RootLayout({ children, title, description, keywords, rob
                 <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
 
+                <meta property="og:image" content="https://www.sebasmoralesd.com/favicon/favicon-96x96.png" />
+                <meta property="og:type" content="website" />
 
                 <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" />
@@ -40,11 +47,18 @@ export default function RootLayout({ children, title, description, keywords, rob
                 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="author" content="Sebastian Morales" />
+
+                <meta name="author" content="Sebastián Morales" />
                 <meta name="description" content={description} />
+                <meta property="og:description" content={description} />
                 <meta name="keywords" content={`${keywords ? `${pageKeyWords}` : ''}`} />
+
                 <meta name="robots" content={robots} />
                 <meta name="revisit-after" content={revisit} />
+
+
+
+
             </Head>
             {children}
         </>
