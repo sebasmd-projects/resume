@@ -6,7 +6,7 @@ export default function TableResume() {
     if (isMobile) {
         return (
             <div className="col-12">
-                <h2 className="text-center">HABILIDADES</h2>
+                <h4 className="text-center">HABILIDADES</h4>
                 <div className="row">
 
                     <div className="col-12">
@@ -185,13 +185,13 @@ export default function TableResume() {
                         <h5 className="list-group-item text-center">Bases de datos</h5>
                         <div className="d-flex">
                             <ul className="list-inline mb-2 mx-auto justify-content-center">
-                                MongoDB
+                                <li>MongoDB</li>
                             </ul>
                             <ul className="list-inline mb-2 mx-auto justify-content-center">
-                                Postgresql
+                                <li>Postgresql</li>
                             </ul >
                             <ul className="list-inline mb-2 mx-auto justify-content-center">
-                                MySQL
+                                <li>MySQL</li>
                             </ul>
                         </div>
 
@@ -244,12 +244,12 @@ export default function TableResume() {
             <table className="table">
                 <thead>
                     <tr>
-                        <th colSpan="5" className="th-center">HABILIDADES</th>
+                        <th colSpan="5" className="th-center"><h5>HABILIDADES</h5></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td colSpan="5" className="table-active">Plataformas</td>
+                        <td colSpan="5" className="table-active"><h6 style={{fontSize:"13px",   margin:"auto"}}>Plataformas</h6></td>
                     </tr>
                     <tr>
                         <td>Cypress</td>
@@ -273,7 +273,7 @@ export default function TableResume() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td colSpan="5" className="table-active">Tecnologías</td>
+                        <td colSpan="5" className="table-active"><h6 style={{fontSize:"13px",   margin:"auto"}}>Tecnologías</h6></td>
                     </tr>
                     <tr>
                         <td>Python</td>
@@ -311,7 +311,7 @@ export default function TableResume() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td colSpan="5" className="table-active">Bases de datos</td>
+                        <td colSpan="5" className="table-active"><h6 style={{fontSize:"13px",   margin:"auto"}}>Bases de datos</h6></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -321,7 +321,7 @@ export default function TableResume() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td colSpan="5" className="table-active">Otros</td>
+                        <td colSpan="5" className="table-active"> <h6 style={{fontSize:"13px",   margin:"auto"}}>Otros</h6></td>
                     </tr>
                     <tr>
                         <td>Automatización</td>
@@ -338,7 +338,7 @@ export default function TableResume() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td colSpan="5" className="table-active">Habilidades Blandas</td>
+                        <td colSpan="5" className="table-active"><h6 style={{fontSize:"13px",   margin:"auto"}}>Habilidades Blandas</h6></td>
                     </tr>
                     <tr>
                         <td>Atención al detalle</td>

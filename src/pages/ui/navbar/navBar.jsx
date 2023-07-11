@@ -13,7 +13,7 @@ export default function NavBar({title, name, locale}) {
                                 <div className="page-header-icon"><i className="bi bi-chat-left-text-fill"></i></div>
                                 Sebastián Morales
                             </h1>
-                            <div className="page-header-subtitle">{title}</div>
+                            <h2 className="page-header-subtitle">{title}</h2>
                         </div>
                         <div className="col-auto mt-4">
                             <ChangeLanguage title={name} locale={locale} />

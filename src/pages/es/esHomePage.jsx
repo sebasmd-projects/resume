@@ -8,12 +8,14 @@ import ResumeComponent from '@/pages/es/components/resume/resumeComponent'
 import '@/pages/styles/Index.module.css'
 
 export default function EsHomePage() {
+    const currentDate = new Date();
+    const formattedDate = `${currentDate.getDate()}/${currentDate.getMonth() + 1}/${currentDate.getFullYear()}`;
 
     return (
         <RootLayout
             title={["Desarrollador Python", "Ingeniero AQA"]}
-            description="Sebastian Morales es un desarrollador Python con un enfoque en Django y Django REST Framework como frameworks, además de esto cuenta con experiencia como ingeniero de control de calidad en varios marcos y herramientas de automatización."
-            keywords={["python", "react", "django", "django rest framework", "hoja de vida", "cv", "rest", "api"]}
+            description={`${formattedDate} - Enfoque en el desarrollo web con Django y DRF, tengo experiencia con el área de control de calidad y herramientas de automatización.`}
+            keywords={"python, react, django, django rest framework, hoja de vida, cv, rest, api, automatización, qa, aqa, bdd"}
             robots="index, follow"
             revisit="30 days"
         >
