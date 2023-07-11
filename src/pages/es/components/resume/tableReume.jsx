@@ -118,7 +118,7 @@ export default function TableResume() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="d-flex col-6">
+                            <div className="col-6">
                                 <ul className="list-inline mb-2 mx-auto justify-content-center">
                                     <li>
                                         SourceTree
