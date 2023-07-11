@@ -12,7 +12,7 @@ export default function EnHomePage() {
     return (
         <RootLayout
             title={["Python Dev", "QA Engineer"]}
-            description="Sebastian Morales is a Python Dev with a focus on Django and Django REST Framework, and a QA Engineer with experience in various automation frameworks and tools."
+            description="Sebastián Morales is a Python Dev with a focus on Django and Django REST Framework, and a QA Engineer with experience in various automation frameworks and tools."
             keywords={["python", "react", "django", "django rest framework", "curriculum", "cv", "rest", "api"]}
             robots="index, follow"
             revisit="30 days"

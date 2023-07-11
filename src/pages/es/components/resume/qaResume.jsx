@@ -5,10 +5,9 @@ export default function QAResume() {
                 Ingeniero AQA
             </h3>
             <p align="justify">
-                Tengo experiencia experiencia en el campo del control de calidad (QA) y automatización,
+                Tengo experiencia en el campo del control de calidad (QA) y automatización,
                 siendo competente en los lenguajes de Python, Java y C#.
-                Mi experiencia incluye la utilización de patrones de diseño como lo son <strong>Page Object Model (POM)</strong> y <strong>ScreenPlay</strong>
-                para crear soluciones de automatización de pruebas eficientes y fáciles de mantener.
+                Mi experiencia incluye la utilización de patrones de diseño como lo son <strong>Page Object Model (POM)</strong> y <strong>ScreenPlay</strong> para crear soluciones de automatización de pruebas eficientes y fáciles de mantener.
                 Con un buen ojo para los detalles y fuertes habilidades analíticas, destaco en la depuración e identificación de errores de software.
             </p>
             <p align="justify">

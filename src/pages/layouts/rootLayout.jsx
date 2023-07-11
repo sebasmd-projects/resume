@@ -13,7 +13,7 @@ export default function RootLayout({ children, title, description, keywords, rob
     return (
         <>
             <Head>
-                <title>{`Sebastian Morales${title ? ` | ${pageTitle}` : ''}`}</title>
+                <title>{`Sebastián Morales${title ? ` | ${pageTitle}` : ''}`}</title>
                 <meta property="og:title" content={`Sebástian Morales${title ? ` | ${pageTitle}` : ''}`} />
 
                 <link rel="canonical" href='https://www.sebasmoralesd.com' />

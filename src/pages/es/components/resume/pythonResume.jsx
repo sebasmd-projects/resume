@@ -30,7 +30,7 @@ export default function PythonReumeComponent() {
                 </span>, ampliando aún más las posibilidades de los proyectos en los que contribuyo.
             </p>
             <p>
-                Al combinar mi experiencia en Python, experiencia en Django y dedicación a las mejores prácticas, 
+                Al combinar mi experiencia en Python, Django y dedicación a las mejores prácticas, 
                 confío en mi capacidad para crear aplicaciones web de alta calidad adaptadas a las necesidades de cualquier proyecto.
             </p>
         </div>
