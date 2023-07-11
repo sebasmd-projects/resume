@@ -9,7 +9,7 @@ export default function PythonReumeComponent() {
             <p align="justify">
                 I am a Python developer with a focus on <strong>Django</strong> and <strong>Django REST Framework</strong>,
                 using class-based views to create efficient, maintainable, and scalable web applications.
-                I have experience integrating Python's native features into web environments,
+                I have experience integrating Python&apos;s native features into web environments,
                 leveraging the power of Python to deliver high-quality web services.
             </p>
             <p align="justify">
@@ -24,7 +24,7 @@ export default function PythonReumeComponent() {
                 My experience with <strong>PostgreSQL</strong> allows me to design and maintain database systems that meet the requirements of complex web applications.
             </p>
             <p align="justify">
-                I have experience in creating advanced queries and managing data using Django's ORM and custom administrators,
+                I have experience in creating advanced queries and managing data using Django&apos;s ORM and custom administrators,
                 optimizing performance and flexibility in the applications I develop. Additionally, I have knowledge of other libraries in the Django ecosystem,
                 such as <span className={style.tooltip}>Celery<span className={`${style.tooltiptext} mx-4`}>Celery is a Python library used for performing background or scheduled tasks asynchronously. It is widely used for managing asynchronous tasks in Django applications.</span>
                 </span>, further expanding the possibilities of the projects I contribute to.
