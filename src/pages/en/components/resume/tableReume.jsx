@@ -1,4 +1,242 @@
+import ChangeTable from "@/pages/functions/changeTable";
+
 export default function TableResume() {
+    const isMobile = ChangeTable()
+
+    if (isMobile) {
+        return (
+            <div className="col-12">
+                <h2 className="text-center">SKILLS</h2>
+                <div className="row">
+
+                    <div className="col-12">
+                        <h5 className="list-group-item text-center">Technologies</h5>
+                        <div className="row d-flex">
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Python
+                                    </li>
+                                    <li>
+                                        Java
+                                    </li>
+                                    <li>
+                                        C#
+                                    </li>
+                                    <li>
+                                        Cucumber
+                                    </li>
+                                    <li>
+                                        AllureReports
+                                    </li>
+                                    <li>
+                                        Django
+                                    </li>
+                                    <li>
+                                        Pytest
+                                    </li>
+                                    <li>
+                                        NUnit
+                                    </li>
+                                    <li>
+                                        JUnit
+                                    </li>
+                                    <li>
+                                        BDD
+                                    </li>
+                                    <li>
+                                        JavaScript
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Gherkin
+                                    </li>
+                                    <li>
+                                        Selenium
+                                    </li>
+
+                                    <li>
+                                        SpecFlow
+                                    </li>
+                                    <li>
+                                        Appium
+                                    </li>
+                                    <li>
+                                        LoadRunner
+                                    </li>
+                                    <li>
+                                        Git
+                                    </li>
+                                    <li>
+                                        Rest/API
+                                    </li>
+                                    <li>
+                                        RobotFramework
+                                    </li>
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                    <li>
+                                        Next.js
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12">
+                        <h5 className="list-group-item text-center">Platforms</h5>
+                        <div className="row d-flex">
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Cypress
+                                    </li>
+                                    <li>
+                                        Jenkins
+                                    </li>
+                                    <li>
+                                        Jira
+                                    </li>
+                                    <li>
+                                        Confluence
+                                    </li>
+                                    <li>
+                                        Postman
+                                    </li>
+                                    <li>
+                                        GitHub
+                                    </li>
+                                    <li>
+                                        GitLab
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="d-flex col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        SourceTree
+                                    </li>
+                                    <li>
+                                        BrowserStack
+                                    </li>
+                                    <li>
+                                        Katalon
+                                    </li>
+                                    <li>
+                                        Wrike
+                                    </li>
+                                    <li>
+                                        Team Foundation Server
+                                    </li>
+                                    <li>
+                                        Citrix
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12">
+                        <h3 className="list-group-item text-center">Others</h3>
+                        <div className="row d-flex">
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Automation
+                                    </li>
+                                    <li>
+                                        Performance
+                                    </li>
+                                    <li>
+                                        API Testing
+                                    </li>
+                                    <li>
+                                        Mobile Testing
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Test Planning
+                                    </li>
+                                    <li>
+                                        Unit Testing
+                                    </li>
+                                    <li>
+                                        Agile Methodology
+                                    </li>
+                                    <li>
+                                        Database Testing
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12">
+                        <h5 className="list-group-item text-center">Databases</h5>
+                        <div className="d-flex">
+                            <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                MongoDB
+                            </ul>
+                            <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                Postgresql
+                            </ul >
+                            <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                MySQL
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div className="col-12">
+                        <h5 className="list-group-item text-center">Soft Skills</h5>
+                        <div className="row d-flex">
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Attention to detail
+                                    </li>
+                                    <li>
+                                        Analytical Thinking
+                                    </li>
+                                    <li>
+                                        Communication
+                                    </li>
+                                    <li>
+                                        Problem solving
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="col-6">
+                                <ul className="list-inline mb-2 mx-auto justify-content-center">
+                                    <li>
+                                        Flexibility
+                                    </li>
+                                    <li>
+                                        Time management
+                                    </li>
+                                    <li>
+                                        Stress management
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div className="col-12 table-responsive">
             <table className="table">
