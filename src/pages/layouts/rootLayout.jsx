@@ -55,10 +55,6 @@ export default function RootLayout({ children, title, description, keywords, rob
 
                 <meta name="robots" content={robots} />
                 <meta name="revisit-after" content={revisit} />
-
-
-
-
             </Head>
             {children}
         </>

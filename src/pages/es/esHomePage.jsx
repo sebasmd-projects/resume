@@ -1,5 +1,7 @@
 import RootLayout from '@/pages/layouts/rootLayout'
 
+import FormattedDate from '@/pages/functions/getDate'
+
 import NavBar from '@/pages/ui/navbar/navBar'
 import Footer from '@/pages/ui/footer/footer'
 
@@ -8,8 +10,8 @@ import ResumeComponent from '@/pages/es/components/resume/resumeComponent'
 import '@/pages/styles/Index.module.css'
 
 export default function EsHomePage() {
-    const currentDate = new Date();
-    const formattedDate = `${currentDate.getDate()}/${currentDate.getMonth() + 1}/${currentDate.getFullYear()}`;
+    
+    const formattedDate = FormattedDate()
 
     return (
         <RootLayout

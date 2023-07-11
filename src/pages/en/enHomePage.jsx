@@ -1,5 +1,7 @@
 import RootLayout from '@/pages/layouts/rootLayout'
 
+import FormattedDate from '@/pages/functions/getDate'
+
 import NavBar from '@/pages/ui/navbar/navBar'
 import Footer from '@/pages/ui/footer/footer'
 
@@ -9,11 +11,13 @@ import '@/pages/styles/Index.module.css'
 
 export default function EnHomePage() {
 
+    const formattedDate = FormattedDate()
+
     return (
         <RootLayout
             title={["Python Dev", "QA Engineer"]}
-            description="Sebastián Morales is a Python Dev with a focus on Django and Django REST Framework, and a QA Engineer with experience in various automation frameworks and tools."
-            keywords={["python", "react", "django", "django rest framework", "curriculum", "cv", "rest", "api"]}
+            description={`${formattedDate} - Focus on web development with Django and DRF, I have experience in quality control and automation tools.`}
+            keywords={"python, react, django, django rest framework, resume, curriculum, cv, rest, api, automatización, qa, aqa, bdd"}
             robots="index, follow"
             revisit="30 days"
         >

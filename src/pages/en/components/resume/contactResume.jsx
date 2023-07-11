@@ -2,9 +2,9 @@ export default function ContactComponent() {
 
     return (
         <div className="col-md-12">
-            <h5>
+            <h3>
                 About Me
-            </h5>
+            </h3>
             <p>
                 WhatsApp: <a href="https://api.whatsapp.com/send?phone=573002954040"
                     target="_blank" rel="noopener noreferrer">+57 300 295 4040</a>

@@ -15,7 +15,7 @@ export default function ResumeComponent() {
 
     return (
         <div className="card mb-4">
-            <div id="resume" className="card-header">Curriculum</div>
+            <h2 id="resume" className="card-header">Curriculum</h2>
             <div className="card-body">
                 <div className="sbp-preview">
                     <div className="sbp-preview-content">
